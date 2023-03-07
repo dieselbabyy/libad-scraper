@@ -41,9 +41,11 @@ Last step, I promise.  Just type in `pip3 install BeautifulSoup4` and hit enter.
 
 ## How to use this script
 
-To use this script, download the file to your computer and save it locally to your hard drive.  I would suggest creating a folder at the base of your C:\ drive, like C:\linux or whatever you want to call it, to make it easy to work with files in WSL2.  You can edit any of the variables in the script, they are all commented for ease of use and to make it easy for configuring to your use. 
+To use this script, download the file to your computer and save it locally to your hard drive.  I would suggest creating a folder at the base of your C:\ drive, like C:\linux or whatever you want to call it, to make it easy to work with files in WSL2.  You can edit any of the variables in the script, they are all commented for ease of use and to make it easy for configuring to your use.   
 
-For example, to change the parameters so that it will yield the results from token ID number 50,000 through 55,000 you will just have to change the numbers in the parantheses of `for i in range(1, 1000):` to instead be `for i in range(50000, 55000):`  To edit this file, you should use a proper text editor or IDE -- do **not** use Notepad, it will mess with the file formatting.  I suggest [Sublime Text](https://sublimetext.com) which you can download for free.  Save the file to your C:\linux folder.
+Right-click on the `getdata.py` underlined link you should see above, or right-click on [this link right here](https://github.com/dieselbabyy/libad-scraper/getdata.py) and select "**Save target as** and download it to your chosen directory.
+
+To change this for your needs, go to line 13 and follow the instructions on line 12 in the commented out text.  To set it so that it will yield the results from token ID number 50,000 through 55,000 you will just have to change the numbers in the parantheses of `for i in range(1, 1000):` to instead be `for i in range(50000, 55000):`  To edit this file, you should use a proper text editor or IDE -- do **not** use Notepad, it will mess with the file formatting.  I suggest [Sublime Text](https://sublimetext.com) which you can download for free.  Save the file to your C:\linux folder.
 
 Now to run the script, open your **Ubuntu** terminal window back up.
 
