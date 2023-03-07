@@ -67,6 +67,4 @@ Happy hunting!  🤝
 
 ❤️ Dieselbaby
 ---------------------
-[shiny-enigma.js](https://libad5343.net/static/shiny-enigma.js)
-[shiny-enigma.js.map](https://libad5343.net/static/shiny-enigma.js.map)
 
