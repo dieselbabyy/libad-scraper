@@ -63,5 +63,6 @@ The results will be automatically put into a CSV (excel spreadsheet) document wh
 
 *Note: it's best to do this in smaller batches, I would recommend limiting this to several thousand at once to not overwhelm the server and get rate-limited.  Then you should **move** the metadata-results.csv file to another folder on your hard drive or rename your existing file(s) because otherwise it will get overwritten if you change the range parameters and run the script again.*
 
-Happy hunting!
-<3 Dieselbaby
+Happy hunting!  🤝
+
+❤️ Dieselbaby
