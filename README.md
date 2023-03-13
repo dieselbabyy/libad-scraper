@@ -35,9 +35,9 @@ We're going to update apt (Ubuntu's package manager) and make sure your reposito
 
 Now we're ready to install Python and pip (a Python package manager). Type `apt-get install python3 && apt-get install pip3` and hit enter.  It may ask you to **press Y** for yes to confirm, then let it install.  This should take a few minutes.
 
-### Adding BeautifulSoup to Python
+### Adding Requirements
 
-Last step, I promise.  Just type in `pip3 install BeautifulSoup4` and hit enter.  That's it.
+Last step, I promise.  Just type in `pip3 install -r requirements.txt` and hit enter.  That's it.
 
 ## How to use this script
 
