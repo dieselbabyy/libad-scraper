@@ -20,7 +20,7 @@ with open('metadata-results.csv', 'w', newline='', encoding='utf-8') as file:
             resp = requests.get(url)
             resp.raise_for_status()
         except requests.HTTPError as e:
-            print(f"Failed processing URL: {url}")
+            print(f"Failed processing {url}: {e}")
             continue
 
         respMap = resp.json()
