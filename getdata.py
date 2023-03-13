@@ -14,7 +14,7 @@ with open('metadata-results.csv', 'w', newline='', encoding='utf-8') as file:
         # Use string formatting to insert the current number into the base URL
         url = base_url.format(i)
         # Print the URL being processed
-        print(f"Currently processing URL: {url}")
+        print(f"Processing {url}...")
 
         try:
             resp = requests.get(url)
