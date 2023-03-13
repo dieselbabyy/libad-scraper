@@ -16,7 +16,14 @@ with open('metadata-results.csv', 'w', newline='', encoding='utf-8') as file:
         # Print the URL being processed
         print(f"Currently processing URL: {url}")
 
-        respMap = requests.get(url).json()
+        try:
+            resp = requests.get(url)
+            resp.raise_for_status()
+        except requests.HTTPError as e:
+            print(f"Failed processing URL: {url}")
+            continue
+
+        respMap = resp.json()
         respMap['url'] = url
         keyList = [x for x in respMap['attributes'] if x.get('trait_type') == 'Key']
         respMap['key'] = keyList[0]['value'] if keyList else None
